@@ -23,23 +23,18 @@ Welcome to a Vanilla JS/HTML5/CSS3 clone of the Stanley Parable, courtesy of Val
 
 ---
 
-### Suggested Ways to Get Started
+### How I started
 
-* **Break the project down into different components** (data, views, style, DOM manipulation) and brainstorm each component individually. Use whiteboards!
-* **Use your Development Tools** (console.log, alert statements, etc) to debug and solve problems
-* Work through the lessons in class & ask questions when you need to! Think about adding relevant code to your game each night
-* **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
-* **Consult documentation resources** (MDN, etc.) at home to better understand what you’ll be getting into.
-* **Don’t be afraid to write code that you know you will have to remove later.** Create temporary elements (buttons, links, etc) that trigger events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate that until then.
+* **First things first, create the object to hold all your events** I called the object a room, it should probably be called events. Don't judge me. From here on out all events will be referred to as ``rooms``
+* **Second, make each event in your story an object within your ``master`` events object** This will make it easy to move from room to room and allow you to add on new events as you go
+* **Hold on there, you need to map out your story**. How will choices affect other choices? Start with two choices per room and move on from there.
 
----
-
-### Potential Project Ideas
-
-##### Blackjack
-Make a one player game where people can win big by guessing which card the computer will deal next!  Start with the Ace equalling 1 or 11... not both.  Once that is 100% working, you can work to make the Ace value changeable.  
-
-##### Self-scoring Trivia
-Test your wits & knowledge with whatever-the-heck you know about (so you can actually win). Guess answers, have the computer tell you how right you are!
+* **But what's in each room?** Whatever you want! I gave my rooms attributes of:
+  -Context: so you know where you are.
+  -Instructions: so you know what you're expected to do.
+  -Choices: so you can decide what to do
+* **The only ability my player has** is the ability to move between rooms
+* **Now that we have a map and a way to move between rooms it's time to write a basic story involving only two-choice branches.** For example, I wrote a sample story about following the narrator to see a rainbow. I have the choice to follow him in the initial room. Then I have the choice to follow him or not, each producing a unique ending.
+* **Changing the order in which you make choices** will change your experience of the game. Try obeying the narrator at every step. Then try disobeying. Maybe try mixing it up after that. Or you could just smash your head against the computer and evaluate the results of your choices that way.
 
 ---

@@ -40,3 +40,5 @@ room = {
 };
 
 moveTo(room.one);
+
+window.onload

@@ -21,18 +21,21 @@ room = {
   four: {
     context: '', // two doors
     text: 'What a wonderful rainbow!',
-    choices: ['THE END IS NEVER THE END', 'moveTo(room.one)'],
+    choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
+              ['THE END IS NEVER THE END', 'moveTo(room.one)']],
   },
   five: {
     context: '', // two doors
     text: 'Pro tip: Avoid the maelstrom. Why didn\'t you listen? [YOU ARE VERY DEAD].',
-    choices: ['THE END IS NEVER THE END', 'moveTo(room.one)'],
+    choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
+              ['THE END IS NEVER THE END', 'moveTo(room.one)']],
   },
 
   six: {
     context: '', // two doors
     text: 'Oh-ho how droll. Let\'s see how much you like ignoring me when THIS happens! [YOU ARE DEAD]',
-    choices: ['THE END IS NEVER THE END', 'moveTo(room.one)'],
+    choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
+              ['THE END IS NEVER THE END', 'moveTo(room.one)']],
   },
 };
 

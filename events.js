@@ -32,7 +32,7 @@ room = {
   },
 
   six: {
-    context: 'http://www.gifanimations.com/samples/NzQzMWZjNWY0OGIzN2E=/NTJmYzVmNDhiMzdh/hand-rising-from-grave-with-lightning.jpg', // two doors
+    context: 'https://www.youtube.com/watch?v=6BKsnG33COw', // two doors
     text: 'Oh-ho how droll. Let\'s see how much you like ignoring me when THIS happens! <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],

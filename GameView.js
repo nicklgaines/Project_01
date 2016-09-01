@@ -6,7 +6,7 @@ const choices = document.querySelector("#choices");
 
 
 const newContext = function newContext(media) {
-  context.style.backgroundImage = 'url(" + media + ")';
+  context.style.backgroundImage = "url(" + media + ")";
 };
 
 const newText = function newText(words) {

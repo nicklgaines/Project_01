@@ -1,7 +1,7 @@
 let room = {};
 room = {
   one: {
-    context: '', // two doors
+    context: "https://i.ytimg.com/vi/Sytp-YZDpvI/maxresdefault.jpg", // two doors
     text: 'When Joy came to a set of two open doors, she walked through the door to her left.',
     choices: [['(OBEY)Enter the door on your left', 'moveTo(room.two)'],
               ['(DISOBEY)Enter the door on your right', 'moveTo(room.three)']],

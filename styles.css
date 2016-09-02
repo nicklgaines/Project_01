@@ -1,5 +1,7 @@
 #context{
-  background-size: cover;
   width: 50%;
   height: 50%;
+  background-size: contain;
+  background-repeat:no-repeat;
+
 }

@@ -506,6 +506,7 @@ room = {
 
 moveTo(room.one);
 
-room.seven.context.addEventListener('click', (e) => {
+//Lines below are intended to add event listener to the big red button image in room.seven
+ /*room.seven.context.addEventListener('click', (e) => {
   moveTo(room.twentySix)
-});
+});*/

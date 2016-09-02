@@ -8,26 +8,26 @@ room = {
               ['(DISOBEY)Enter the door on your right', 'moveTo(room.three)']],
   },
   two: {
-    context: '', // two doors
+    context: 'http://previews.123rf.com/images/ratoca/ratoca1312/ratoca131200054/24355982-Up-and-down-stairs-Stock-Vector.jpg', // two doors
     text: 'Joy arrived in her usual classroom to find no one around. <br> How very strange, maybe they went up that very ordinary looking staircase? Do ignore the Piper',
     choices: [['(OBEY)Take the very ordinary looking stairs[Walk up the stairs]', 'moveTo(room.four)'],
               ['(DISOBEY)Follow the dancing rats[Walk down the stairs]', 'moveTo(room.five)']],
   },
   three: {
-    context: '', // two doors
+    context: 'http://3.bp.blogspot.com/-vgmosQQH-F0/UyCtNhfxJcI/AAAAAAAAHnk/rGEuyid0STg/s1600/pointing-finger.gif', // two doors
     text: 'I see you are confused. I said left. You went right. This must be some mistake.',
     choices: [['(OBEY)Get back to the main story[Take the open door]', 'moveTo(room.two)'],
               ['(DISOBEY)Continue frivolous exploration', 'moveTo(room.six)']],
   },
   four: {
-    context: '', // two doors
+    context: 'http://previews.123rf.com/images/mooltfilm/mooltfilm1111/mooltfilm111100012/11097336-Abstract-endless-spiral-staircase-with-soft-shadows-View-from-above-3d-illustration-Stock-Illustration.jpg', // two doors
     text: 'The stairs were ordinary, but Joy saw that they spiraled into the sky for hundreds of stories. <br>' +
           'Joy paused for a moment, but was having a lovely time mindlessly climbing the stairs and soon resumed her search for her class.',
     choices: [['(OBEY)Continue climbing', 'moveTo(room.seven)'],
               ['(DISOBEY)Step into the open broom closet', 'moveTo(room.eight)']],
   },
   five: {
-    context: '', // two doors
+    context: 'http://blog.thenewstribune.com/larue/files/2013/04/dancing-rats.jpg', // two doors
     text: 'Joy had apparently never heard of the Black Death and began dancing with the basement rats',
     choices: [['Dance with a heel lead', 'moveTo(room.nine)'],
               ['Dance with a toe lead', 'moveTo(room.ten)']],
@@ -41,7 +41,7 @@ room = {
   },
 
   seven: {
-    context: '', // two doors
+    context: 'http://images2.wikia.nocookie.net/__cb20100813033137/nerf/images/c/c5/Red_button.jpg', // two doors
     text: 'After climbing for several hours, Joy found an ornate wooden door almost ten feet tall.<br> Joy rang the door bell, but took care to avoid pushing the giant red button that said \'DO NOT PRESS\' ',
     choices: [['(OBEY) Ring the doorbell', 'moveTo(room.sixteen)'],
               ['(DISOBEY)You know what you want to do [Push the red button]', 'moveTo(room.twentySix)']],
@@ -505,3 +505,7 @@ room = {
 };
 
 moveTo(room.one);
+
+room.seven.context.addEventListener('click', (e) => {
+  moveTo(room.twentySix)
+});

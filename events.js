@@ -35,7 +35,7 @@ room = {
 
   six: {
     context: '', // two doors
-    text: '',
+    text: 'Well I didn\'t plan on you being such a jerk so I haven\'t written anything for this part yet.',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
@@ -59,7 +59,7 @@ room = {
     context: '', // two doors
     text: 'The Piper admires your grace. He invites you to dine with his rats.',
     choices: [['(OBEY) Join the Piper for dinner', 'moveTo(room.eleven)'],
-              ['(DISOBEY) Throw acid in the Piper\'s face', 'moveTo(room.fiftySeven)']],
+              ['(DISOBEY) Light the Piper on fire', 'moveTo(room.fiftySeven)']],
   },
 
   ten: {
@@ -78,7 +78,7 @@ room = {
 
   twelve: {
     context: '', // two doors
-    text: 'The acid works! The rats and the Piper are dead. You regret the senseless violence.',
+    text: 'The entire room is now on fire. You regret the senselessness of it all. <br> [YOU BURN AND DIE]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
@@ -104,7 +104,7 @@ room = {
   },
   sixteen: {
     context: '', // two doors
-    text: '',
+    text: 'A gentleman answers the door. This part of the story has yet to be written',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
@@ -392,7 +392,7 @@ room = {
   fiftySeven: {
     context: '', // two doors
     text: 'The Piper screams and the rats attack.',
-    choices: [['Throw more acid at the rats', 'moveTo(room.twelve)'],
+    choices: [['Set the rats on fire', 'moveTo(room.twelve)'],
               ['Run away', 'moveTo(room.thirteen)']],
   },
 

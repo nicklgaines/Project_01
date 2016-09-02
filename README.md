@@ -30,9 +30,9 @@ Welcome to a Vanilla JS/HTML5/CSS3 clone of the Stanley Parable, courtesy of Val
 * **Hold on there, you need to map out your story**. How will choices affect other choices? Start with two choices per room and move on from there.
 
 * **But what's in each room?** Whatever you want! I gave my rooms attributes of:
-  -Context: so you know where you are.
-  -Instructions: so you know what you're expected to do.
-  -Choices: so you can decide what to do
+-Context: so you know where you are.
+-Instructions: so you know what you're expected to do.
+-Choices: so you can decide what to do
 * **The only ability my player has** is the ability to move between rooms
 * **Now that we have a map and a way to move between rooms it's time to write a basic story involving only two-choice branches.** For example, I wrote a sample story about following the narrator to see a rainbow. I have the choice to follow him in the initial room. Then I have the choice to follow him or not, each producing a unique ending.
 * **Changing the order in which you make choices** will change your experience of the game. Try obeying the narrator at every step. Then try disobeying. Maybe try mixing it up after that. Or you could just smash your head against the computer and evaluate the results of your choices that way.

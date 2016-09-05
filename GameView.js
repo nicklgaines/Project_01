@@ -38,7 +38,7 @@ const moveTo = function(room) {
   if (room.secret) {
     winCounter += 1;
     if (winCounter === 10) {
-      alert("YOU WIN! <br> But... <br> THE END IS NEVER THE END IS NEVER THE END")
+      alert("YOU WIN!\nBut...\nTHE END IS NEVER THE END IS NEVER THE END")
     }
   }
   //newCount()

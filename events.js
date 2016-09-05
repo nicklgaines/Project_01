@@ -6,6 +6,7 @@ room = {
     text: 'When Joy came to a set of two open doors, she walked through the door on her left.',
     choices: [['(OBEY)Enter the door on your left', 'moveTo(room.two)'],
               ['(DISOBEY)Enter the door on your right', 'moveTo(room.three)']],
+    secret: 1,
   },
   two: {
     context: 'http://previews.123rf.com/images/ratoca/ratoca1312/ratoca131200054/24355982-Up-and-down-stairs-Stock-Vector.jpg', // two doors
@@ -37,7 +38,7 @@ room = {
     context: '', // two doors
     text: 'Well I didn\'t plan on you being such a jerk so I haven\'t written anything for this part yet.',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
-              ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+              ['IS NEVER THE END IS NEVER', 'moveTo(room.fortyTwo)']],
   },
 
   seven: {
@@ -48,7 +49,7 @@ room = {
   },
 
   eight: {
-    context: '', // two doors
+    context: 'http://mobileimages.lowes.com/product/converted/071798/071798509006.jpg', // two doors
     text: 'Um...ok. Joy walked into the broom closet and admired the broom lying on the floor.',
     choices: [['(OBEY) Return to the climb', 'moveTo(room.seven)'],
               ['(DISOBEY) Remain in the broom closet', 'moveTo(room.sixtySeven)'],
@@ -56,35 +57,35 @@ room = {
   },
 
   nine: {
-    context: '', // two doors
+    context: 'http://www.starwoodhotels.com/pub/media/373/lux373de.144863_ub.jpg', // two doors
     text: 'The Piper admires your grace. He invites you to dine with his rats.',
     choices: [['(OBEY) Join the Piper for dinner', 'moveTo(room.eleven)'],
               ['(DISOBEY) Light the Piper on fire', 'moveTo(room.fiftySeven)']],
   },
 
   ten: {
-    context: '', // two doors
+    context: 'http://4.bp.blogspot.com/-MAqmQeLvkec/T5BoMJ0vYAI/AAAAAAAABXE/ncDk2mv_TWk/s1600/The_Pied_Piper2+Elisabeth_Alba__.jpg', // two doors
     text: 'The Piper does not enjoy your dancing. You are fed to the rats. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
 
   eleven: {
-    context: '', // two doors
+    context: 'http://www.starwoodhotels.com/pub/media/373/lux373de.144863_ub.jpg', // two doors
     text: 'You enjoy a lovely evening with the Pied Piper of Pied Pipers',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
 
   twelve: {
-    context: '', // two doors
+    context: 'http://i3.kym-cdn.com/photos/images/facebook/001/007/322/1d2.jpeg', // two doors
     text: 'The entire room is now on fire. You regret the senselessness of it all. <br> [YOU BURN AND DIE]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
 
   thirteen: {
-    context: '', // two doors
+    context: 'http://images1.wikia.nocookie.net/__cb20120715031133/starwars/images/6/6c/Rancor.jpg', // two doors
     text: 'The Piper pulls a switch and you fall into the Rancor-Rat Pit. You are not a Jedi. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
@@ -166,35 +167,35 @@ room = {
   },
 
   twentyFive: {
-    context: '', // two doors
+    context: 'http://themarron.com/wp-content/uploads/2015/10/IMG_0438-copy.jpg', // two doors
     text: 'Joy entered to find a small chair with a smaller laptop. Next to the computer was a small note that read: \'Write a specRunner.html for a search engine\' <br> Joy began to work and wept silently as the door behind her clicked shut.',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
 
   twentySix: {
-    context: '', // two doors
+    context: 'https://www.themurphydoor.com/wp-content/uploads/2015/07/17/murphy-door-presents-top-5-secret-doors-in-history/anne-frank.jpg', // two doors
     text: 'You just had to push the button didn\'t you? <br> Joy saw the wall behind her reveal a secret door and a slide. Joy walked cautiously towards the door.',
     choices: [['(Obey) Open the secret door', 'moveTo(room.twentyFive)'],
               ['(DISOBEY) Ride the secret slide', 'moveTo(room.twentySeven)']],
   },
 
   twentySeven: {
-    context: '', // two doors
+    context: 'http://massassi.ourhobby.com/massassi/pictures/episode_5/img/cloud_city_corridor15.jpg', // two doors
     text: 'WEEEEEEE! Joy was thrilled by the slide. She picked up speed. How long was this slide? She grew worried. After what seemed like ages, Joy came to a fork in the slide and went right.',
     choices: [['(OBEY) Lean to the right', 'moveTo(room.twentyEight)'],
               ['(DISOBEY) Lean to the left', 'moveTo(room.twentyNine)']],
   },
 
   twentyEight: {
-    context: '', // two doors
+    context: 'http://microsoftnewyork.com/wp-content/uploads/sites/21/2015/09/nick-twitter.jpg', // two doors
     text: 'CONGRATULATIONS, JOY! The name of your tormentor is Nick. With that jaw-dropping revelation, you are free to go. <br> [YOU ARE NOT FREE TO GO]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
 
   twentyNine: {
-    context: '', // two doors
+    context: 'http://images.wisegeek.com/red-brick-wall.jpg', // two doors
     text: 'Joy should have gone right. [YOU HIT A WALL WITH FORCE AND DIE]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
@@ -460,14 +461,14 @@ room = {
   },
 
   sixtySeven: {
-    context: '', // two doors
+    context: 'http://mobileimages.lowes.com/product/converted/071798/071798509006.jpg', // two doors
     text: 'Joy continued to lovingly stare at the broom on the floor.',
     choices: [['(OBEY) Turn to the broom closet entrance', 'moveTo(room.eight)'],
               ['(DISOBEY)Remain in the broom closet', 'moveTo(room.sixtySeven)']],
   },
 
   sixtyEight: {
-    context: '', // two doors
+    context: 'http://il3.picdn.net/shutterstock/videos/4882880/thumb/1.jpg', // two doors
     text: 'Joy, despairing a life of climbing stairs or being trapped in the closet, viciously beat herself with the broom. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
@@ -509,4 +510,7 @@ moveTo(room.one);
 //Lines below are intended to add event listener to the big red button image in room.seven
  /*room.seven.context.addEventListener('click', (e) => {
   moveTo(room.twentySix)
+//Create some kind of "image checker" fucntion that fires every time you move to a new room.
+//give all images an id.
+//image checker checks the id of each image in 'context' on every moveTo and if it returns true it applies the event listener to that image.
 });*/

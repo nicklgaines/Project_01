@@ -6,7 +6,6 @@ room = {
     text: 'When Joy came to a set of two open doors, she walked through the door on her left.',
     choices: [['(OBEY)Enter the door on your left', 'moveTo(room.two)'],
               ['(DISOBEY)Enter the door on your right', 'moveTo(room.three)']],
-    secret: 1,
   },
   two: {
     context: '',//'http://previews.123rf.com/images/ratoca/ratoca1312/ratoca131200054/24355982-Up-and-down-stairs-Stock-Vector.jpg', // two doors
@@ -39,6 +38,7 @@ room = {
     text: 'Well I didn\'t plan on you being such a jerk so I haven\'t written anything for this part yet.',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   seven: {
@@ -68,6 +68,7 @@ room = {
     text: 'The Piper does not enjoy your dancing. You are fed to the rats. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   eleven: {
@@ -75,6 +76,7 @@ room = {
     text: 'You enjoy a lovely evening with the Pied Piper of Pied Pipers',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   twelve: {
@@ -82,6 +84,7 @@ room = {
     text: 'The entire room is now on fire. You regret the senselessness of it all. <br> [YOU BURN AND DIE]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   thirteen: {
@@ -89,6 +92,7 @@ room = {
     text: 'The Piper pulls a switch and you fall into the Rancor-Rat Pit. You are not a Jedi. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   fourteen: {
@@ -108,6 +112,7 @@ room = {
     text: 'A gentleman answers the door. This part of the story has yet to be written',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   seventeen: {
@@ -167,10 +172,11 @@ room = {
   },
 
   twentyFive: {
-    context: 'http://themarron.com/wp-content/uploads/2015/10/IMG_0438-copy.jpg', // two doors
+    context: '', // two doors
     text: 'Joy entered to find a small chair with a smaller laptop. Next to the computer was a small note that read: \'Write a specRunner.html for a search engine\' <br> Joy began to work and wept silently as the door behind her clicked shut.',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   twentySix: {
@@ -192,6 +198,7 @@ room = {
     text: 'CONGRATULATIONS, JOY! The name of your tormentor is Nick. With that jaw-dropping revelation, you are free to go. <br> [YOU ARE NOT FREE TO GO]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   twentyNine: {
@@ -199,6 +206,7 @@ room = {
     text: 'Joy should have gone right. [YOU HIT A WALL WITH FORCE AND DIE]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 
   thirty: {
@@ -472,6 +480,7 @@ room = {
     text: 'Joy, despairing a life of climbing stairs or being trapped in the closet, viciously beat herself with the broom. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
+    secret: 1,
   },
 /* FUTURE EVENTS
   sixtyNine: {

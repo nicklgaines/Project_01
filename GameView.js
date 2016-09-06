@@ -9,7 +9,7 @@ let winCounterBox = document.querySelector("#winCounter");
 let winCounterText = document.createElement('h2')
 winCounterBox.appendChild(winCounterText);
 
-let winCounter= -1;
+let winCounter= 0;
 winCounterText.innerHTML= winCounter;
 
 

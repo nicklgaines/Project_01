@@ -38,7 +38,7 @@ room = {
     context: '', // two doors
     text: 'Well I didn\'t plan on you being such a jerk so I haven\'t written anything for this part yet.',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
-              ['IS NEVER THE END IS NEVER', 'moveTo(room.fortyTwo)']],
+              ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],
   },
 
   seven: {

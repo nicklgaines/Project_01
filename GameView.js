@@ -10,7 +10,7 @@ let winCounterText = document.createElement('h2')
 winCounterBox.appendChild(winCounterText);
 
 let winCounter= 0;
-winCounterText.innerHTML= winCounter;
+winCounterText.innerHTML= 'Endings Found: ' + winCounter;
 
 
 

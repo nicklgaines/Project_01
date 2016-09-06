@@ -3,6 +3,7 @@
 const context = document.querySelector("#context");
 const text = document.querySelector("#text");
 const choices = document.querySelector("#choices");
+const button = document.getElementsByTagName("button")
 
 let winCounterBox = document.querySelector("#winCounter");
 let winCounterText = document.createElement('h2')
@@ -29,6 +30,11 @@ const newChoices = function(choicesList) {
   for (let i = 0; i < choicesList.length; i++) {
     choices.innerHTML += "<button onClick="+choicesList[i][1]+">"
                           + choicesList[i][0] + "</button>";
+    if (choicesList[i][0]) {
+      button.className = 'Obey';
+    } else if (choicesList[i][1]) {
+      button.className = 'Disobey';
+    }
   }
 };
 

@@ -49,7 +49,7 @@ const moveTo = function(room) {
     winCounterText.innerHTML=winCounter;
     if (winCounter === 10) {
       let overMessage;
-      overMessage = document.createElement('h1');
+      overMessage = document.createElement('h4');
       winCounterBox.appendChild(overMessage);
       overMessage.innerHTML = "CONGRATULATIONS! <br> You get to keep playing while this message lets you know how how wonderful you are. <br> You truly are a winner.";
     }

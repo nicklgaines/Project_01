@@ -46,7 +46,7 @@ const moveTo = function(room) {
   newChoices(room.choices)
   if (room.secret) {
     winCounter += 1;
-    winCounterText.innerHTML=winCounter;
+    winCounterText.innerHTML= 'Endings Found: ' + winCounter;
     if (winCounter === 10) {
       let overMessage;
       overMessage = document.createElement('h4');

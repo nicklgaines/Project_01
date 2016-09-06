@@ -5,7 +5,13 @@ const text = document.querySelector("#text");
 const choices = document.querySelector("#choices");
 
 let winCounterBox = document.querySelector("#winCounter");
-let winCounter = -1;
+let winCounterText = document.createElement('h2')
+winCounterBox.appendChild(winCounterText);
+
+let winCounter= -1;
+winCounterText.innerHTML= winCounter;
+
+
 
 
 
@@ -17,9 +23,6 @@ const newText = function newText(words) {
   text.innerHTML = words.replace();
 };
 
-/* const newCount = function newCount(increment) {
-  winCounterBox.innerHTML = increment.replace();
-} */
 
 const newChoices = function(choicesList) {
   choices.innerHTML = "";
@@ -37,11 +40,14 @@ const moveTo = function(room) {
   newChoices(room.choices)
   if (room.secret) {
     winCounter += 1;
+    winCounterText.innerHTML=winCounter;
     if (winCounter === 10) {
-      alert("YOU WIN!\nBut...\nTHE END IS NEVER THE END IS NEVER THE END")
+      let overMessage;
+      overMessage = document.createElement('h1');
+      winCounterBox.appendChild(overMessage);
+      overMessage.innerHTML = "CONGRATULATIONS! <br> You get to keep playing while this message lets you know how how wonderful you are. <br> You truly are a winner.";
     }
   }
-  //newCount()
 
 
 };

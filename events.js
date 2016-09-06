@@ -468,7 +468,7 @@ room = {
   },
 
   sixtyEight: {
-    context: '',//'http://il3.picdn.net/shutterstock/videos/4882880/thumb/1.jpg', // two doors
+    context: '', //'http://il3.picdn.net/shutterstock/videos/4882880/thumb/1.jpg', // two doors
     text: 'Joy, despairing a life of climbing stairs or being trapped in the closet, viciously beat herself with the broom. <br> [YOU ARE DEAD]',
     choices: [['THE END IS NEVER THE END', 'moveTo(room.one)'],
               ['IS NEVER THE END IS NEVER', 'moveTo(room.one)']],

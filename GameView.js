@@ -51,7 +51,7 @@ const moveTo = function(room) {
       let overMessage;
       overMessage = document.createElement('h4');
       winCounterBox.appendChild(overMessage);
-      overMessage.innerHTML = "CONGRATULATIONS! <br> You get to keep playing while this message lets you know how how wonderful you are. <br> You truly are a winner.";
+      overMessage.innerHTML = "CONGRATULATIONS! <br> You found ten endings. <br> You truly are a winner. <br> Now...find the rest...";
     }
   }
 

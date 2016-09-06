@@ -47,7 +47,7 @@ const moveTo = function(room) {
   if (room.secret) {
     winCounter += 1;
     winCounterText.innerHTML= 'Endings Found: ' + winCounter;
-    //room.secret -=1; THIS LINE OF CODE SHOULD MAKE IT SO YOU DON'T GET CREDITED FOR VISITING THE SAME ENDING TWICE
+    room.secret = null; 
     if (winCounter === 10) {
       let overMessage;
       overMessage = document.createElement('h4');

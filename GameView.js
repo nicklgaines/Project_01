@@ -47,7 +47,7 @@ const moveTo = function(room) {
   if (room.secret) {
     winCounter += 1;
     winCounterText.innerHTML= 'Endings Found: ' + winCounter;
-    room.secret = null; 
+    room.secret = null;
     if (winCounter === 10) {
       let overMessage;
       overMessage = document.createElement('h4');
